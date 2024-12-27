@@ -47,6 +47,19 @@
     1080p[2.51GB]
 </button>
 </br>
+   <button id="myButton">Click Me</button>
+
+<script>
+  const button = document.getElementById("myButton");
+
+  button.addEventListener("click", () => {
+    if (button.textContent === "Click Me") {
+      button.textContent = "Clicked!";
+    } else {
+      button.textContent = "Click Me";
+    }
+  });
+</script> 
 </div>
 <script type="application/javascript">
     (function(){
